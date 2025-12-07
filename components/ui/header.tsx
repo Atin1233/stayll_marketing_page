@@ -83,16 +83,8 @@ export default function Header() {
             </div>
           </nav>
 
-          {/* Right side - Dashboard and CTA buttons */}
+          {/* Right side - CTA button */}
           <div className="flex items-center space-x-3">
-            {/* Dashboard Button */}
-            <Link
-              href="/app"
-              className="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-full transition-all duration-200"
-            >
-              Dashboard
-            </Link>
-            
             {/* CTA button with unique styling */}
             <a
               href="#cta"
@@ -147,12 +139,6 @@ export default function Header() {
                   </a>
                 ))}
                 <div className="pt-2 border-t border-gray-700/50 space-y-2">
-                  <Link
-                    href="/app"
-                    className="flex items-center justify-center px-6 py-3 text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-xl transition-all duration-200"
-                  >
-                    Dashboard
-                  </Link>
                   <a
                     href="#cta"
                     onClick={(e) => {
