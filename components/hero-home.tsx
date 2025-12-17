@@ -21,7 +21,7 @@ export default function HeroHome() {
                 Commercial Real Estate Lease Abstraction & Financial Data Platform
               </p>
               <p className="mb-4 text-lg text-blue-200/80" data-aos="fade-up" data-aos-delay={300}>
-                Extract rent schedules, escalation clauses, renewal options, and compliance obligations from lease documents with audit-grade accuracy. Built for asset managers, portfolio accountants, and CFOs managing 500–5,000 leases. <2% error rate guarantee.
+                Extract rent schedules, escalation clauses, renewal options, and compliance obligations from lease documents with audit-grade accuracy. Built for asset managers, portfolio accountants, and CFOs managing 500–5,000 leases. &lt;2% error rate guarantee.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center gap-4">
                 <div data-aos="fade-up" data-aos-delay={400}>

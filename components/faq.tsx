@@ -12,7 +12,7 @@ export default function FAQ() {
     },
     {
       question: "What is the accuracy guarantee?",
-      answer: "<2% error rate guarantee. Multi-model AI stack (Sonnet 4.5, Gemini 3 Pro, GPT-5.1) extracts 22 fields with per-field confidence scoring. Every field is clause-linked to source PDF pages. Financial reconciliation engine validates all rent schedules."
+      answer: "&lt;2% error rate guarantee. Multi-model AI stack (Sonnet 4.5, Gemini 3 Pro, GPT-5.1) extracts 22 fields with per-field confidence scoring. Every field is clause-linked to source PDF pages. Financial reconciliation engine validates all rent schedules."
     },
     {
       question: "Who is STAYLL AI designed for?",
@@ -44,7 +44,7 @@ export default function FAQ() {
     },
     {
       question: "What makes STAYLL AI different?",
-      answer: "Five key differentiators: 1) <2% error rate guarantee, 2) Financial reconciliation with deterministic validation, 3) Clause-level audit trail for auditors, 4) Multi-model AI stack for accuracy, 5) Enterprise-grade built for CFO sign-off and external audits."
+      answer: "Five key differentiators: 1) &lt;2% error rate guarantee, 2) Financial reconciliation with deterministic validation, 3) Clause-level audit trail for auditors, 4) Multi-model AI stack for accuracy, 5) Enterprise-grade built for CFO sign-off and external audits."
     }
   ];
 

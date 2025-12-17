@@ -23,7 +23,7 @@ export default function Cta() {
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  Built for asset managers, portfolio accountants, and CFOs managing 500–5,000 leases. <2% error rate guarantee. Clause-level evidence for auditors. Eliminate financial leakage and automate portfolio analytics.
+                  Built for asset managers, portfolio accountants, and CFOs managing 500–5,000 leases. &lt;2% error rate guarantee. Clause-level evidence for auditors. Eliminate financial leakage and automate portfolio analytics.
                 </p>
               </div>
 
