@@ -28,37 +28,44 @@ export default function Pricing() {
           </div>
 
           {/* Pricing Cards */}
-          <div className="mx-auto grid max-w-sm gap-8 sm:max-w-none sm:grid-cols-3 lg:gap-6">
-            {/* Pilot */}
+          <div className="mx-auto grid max-w-sm gap-8 sm:max-w-none sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+            {/* Essential */}
             <div className="relative rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-blue-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 hover:before:opacity-100">
               <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 p-6">
                 <div className="mb-6">
                   <div className="mb-3">
-                    <h3 className="text-lg font-semibold text-gray-200">Pilot</h3>
+                    <h3 className="text-lg font-semibold text-gray-200">Essential</h3>
                   </div>
                   <div className="mb-3">
                     <span className="text-2xl font-bold text-gray-200">$25K</span>
+                    <span className="text-sm text-blue-200/65">/year</span>
                   </div>
-                  <p className="text-sm text-blue-200/65">500 Leases | 30 Days</p>
+                  <p className="text-sm text-blue-200/65">0–500 leases</p>
                 </div>
                 <ul className="mb-6 space-y-2 text-sm">
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">100% Human-Verified</span>
+                    <span className="text-blue-200/65">22-field extraction</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">CSV + Audit Log</span>
+                    <span className="text-blue-200/65">Financial reconciliation</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">Accuracy Guaranteed</span>
+                    <span className="text-blue-200/65">Audit trail & evidence</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">&lt;2% error rate guarantee</span>
                   </li>
                 </ul>
                 <a
@@ -66,13 +73,13 @@ export default function Pricing() {
                   className="btn group w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] text-sm"
                 >
                   <span className="relative inline-flex items-center justify-center">
-                    Request Pilot →
+                    Get Started →
                   </span>
                 </a>
               </div>
             </div>
 
-            {/* Portfolio */}
+            {/* Professional */}
             <div className="relative rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-blue-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 hover:before:opacity-100 border-2 border-blue-500/50">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                 <span className="bg-blue-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
@@ -82,31 +89,38 @@ export default function Pricing() {
               <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 p-6">
                 <div className="mb-6">
                   <div className="mb-3">
-                    <h3 className="text-lg font-semibold text-gray-200">Portfolio</h3>
+                    <h3 className="text-lg font-semibold text-gray-200">Professional</h3>
                   </div>
                   <div className="mb-3">
-                    <span className="text-2xl font-bold text-gray-200">$50K</span>
+                    <span className="text-2xl font-bold text-gray-200">$60K</span>
+                    <span className="text-sm text-blue-200/65">/year</span>
                   </div>
-                  <p className="text-sm text-blue-200/65">1,500 Leases | 60 Days</p>
+                  <p className="text-sm text-blue-200/65">500–1,500 leases</p>
                 </div>
                 <ul className="mb-6 space-y-2 text-sm">
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">Quarterly Updates</span>
+                    <span className="text-blue-200/65">Everything in Essential</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">API Access (Q2)</span>
+                    <span className="text-blue-200/65">Portfolio analytics</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">Priority Support</span>
+                    <span className="text-blue-200/65">Compliance calendar</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">Priority support</span>
                   </li>
                 </ul>
                 <a
@@ -114,7 +128,7 @@ export default function Pricing() {
                   className="btn group w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] text-sm"
                 >
                   <span className="relative inline-flex items-center justify-center">
-                    Request Quote →
+                    Get Started →
                   </span>
                 </a>
               </div>
@@ -128,28 +142,84 @@ export default function Pricing() {
                     <h3 className="text-lg font-semibold text-gray-200">Enterprise</h3>
                   </div>
                   <div className="mb-3">
-                    <span className="text-2xl font-bold text-gray-200">$100K+</span>
+                    <span className="text-2xl font-bold text-gray-200">$120K</span>
+                    <span className="text-sm text-blue-200/65">/year</span>
                   </div>
-                  <p className="text-sm text-blue-200/65">5,000+ Leases | 90 Days</p>
+                  <p className="text-sm text-blue-200/65">1,500–3,000 leases</p>
                 </div>
                 <ul className="mb-6 space-y-2 text-sm">
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">Native Yardi/MRI</span>
+                    <span className="text-blue-200/65">Everything in Professional</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-blue-200/65">Dedicated Support</span>
+                    <span className="text-blue-200/65">API access</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">Advanced analytics</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">Dedicated support</span>
+                  </li>
+                </ul>
+                <a
+                  href="#cta"
+                  className="btn group w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] text-sm"
+                >
+                  <span className="relative inline-flex items-center justify-center">
+                    Contact Sales →
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            {/* Enterprise Plus */}
+            <div className="relative rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-blue-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 hover:before:opacity-100">
+              <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 p-6">
+                <div className="mb-6">
+                  <div className="mb-3">
+                    <h3 className="text-lg font-semibold text-gray-200">Enterprise Plus</h3>
+                  </div>
+                  <div className="mb-3">
+                    <span className="text-2xl font-bold text-gray-200">Custom</span>
+                  </div>
+                  <p className="text-sm text-blue-200/65">3,000+ leases</p>
+                </div>
+                <ul className="mb-6 space-y-2 text-sm">
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">Everything in Enterprise</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">Native Yardi/MRI integration</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-blue-200/65">Custom SLA</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="mr-2 h-4 w-4 fill-green-500 mt-0.5 flex-shrink-0" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-blue-200/65">White-glove service</span>
                   </li>
                 </ul>
                 <a
@@ -167,7 +237,7 @@ export default function Pricing() {
           {/* Bottom Note */}
           <div className="mt-12 text-center">
             <p className="text-sm text-gray-400">
-              This is a managed service, not SaaS. We deliver verified data you can trust. No subscriptions until you've seen the ROI.
+              All plans include Stripe integration, usage limits enforcement, and organization-based multi-tenancy. Subscriptions are annual with monthly billing available for Enterprise plans.
             </p>
           </div>
         </div>

@@ -28,7 +28,7 @@ export default function Differentiation() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              We Don't Read Contracts. We Deliver Financial Truth.
+              Key Differentiators: Built for CFO Sign-Off and External Audits
             </h2>
           </div>
 
@@ -57,74 +57,54 @@ export default function Differentiation() {
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-700/30">
-                      <td className="px-6 py-4 text-sm text-gray-300">Accuracy Guarantee</td>
+                      <td className="px-6 py-4 text-sm text-gray-300">Accuracy SLA</td>
                       <td className="px-6 py-4 text-center">
                         <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          ≥95% audited by CPAs
+                          &lt;2% error rate guarantee
                         </span>
                       </td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">Not verified</td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">80–85% confidence only</td>
-                    </tr>
-                    <tr className="border-b border-gray-700/30">
-                      <td className="px-6 py-4 text-sm text-gray-300">Clause-Level Evidence</td>
-                      <td className="px-6 py-4 text-center">
-                        <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          Every field linked to PDF
-                        </span>
-                      </td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">None</td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">Sometimes</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">No guarantee</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">No guarantee</td>
                     </tr>
                     <tr className="border-b border-gray-700/30">
                       <td className="px-6 py-4 text-sm text-gray-300">Financial Reconciliation</td>
                       <td className="px-6 py-4 text-center">
                         <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          Rent schedules must sum ±$1
+                          Deterministic validation of rent schedules
                         </span>
                       </td>
                       <td className="px-6 py-4 text-center text-sm text-gray-500">None</td>
                       <td className="px-6 py-4 text-center text-sm text-gray-500">None</td>
                     </tr>
                     <tr className="border-b border-gray-700/30">
-                      <td className="px-6 py-4 text-sm text-gray-300">Yardi/MRI Integration</td>
+                      <td className="px-6 py-4 text-sm text-gray-300">Audit Trail</td>
                       <td className="px-6 py-4 text-center">
                         <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          Native API (Q2 2026)
+                          Clause-level evidence for auditors
                         </span>
                       </td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">CSV only</td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">CSV only</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">None</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">Limited</td>
                     </tr>
                     <tr className="border-b border-gray-700/30">
-                      <td className="px-6 py-4 text-sm text-gray-300">CFO-Ready Data</td>
+                      <td className="px-6 py-4 text-sm text-gray-300">Multi-Model AI</td>
                       <td className="px-6 py-4 text-center">
                         <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          Auditor-certified
+                          Sonnet 4.5, Gemini 3 Pro, GPT-5.1
                         </span>
                       </td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">Manual cleanup required</td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">Not compliant</td>
-                    </tr>
-                    <tr className="border-b border-gray-700/30">
-                      <td className="px-6 py-4 text-sm text-gray-300">Delivery Speed</td>
-                      <td className="px-6 py-4 text-center">
-                        <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          30 days (500 leases)
-                        </span>
-                      </td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">60–90 days</td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">Instant (but wrong)</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">Single model</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">Single model</td>
                     </tr>
                     <tr>
-                      <td className="px-6 py-4 text-sm text-gray-300">ROI Guarantee</td>
+                      <td className="px-6 py-4 text-sm text-gray-300">Enterprise-Grade</td>
                       <td className="px-6 py-4 text-center">
                         <span className="inline-flex items-center rounded-full bg-green-500/20 px-3 py-1 text-xs font-medium text-green-400">
-                          3× value or refund
+                          Built for CFO sign-off and external audits
                         </span>
                       </td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">None</td>
-                      <td className="px-6 py-4 text-center text-sm text-gray-500">None</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">Manual processes</td>
+                      <td className="px-6 py-4 text-center text-sm text-gray-500">Not audit-ready</td>
                     </tr>
                   </tbody>
                 </table>
@@ -135,10 +115,10 @@ export default function Differentiation() {
           {/* Bottom CTA */}
           <div className="mt-16 text-center">
             <p className="mb-4 text-lg text-blue-200/80">
-              <strong className="text-white">Stayll</strong> isn't a document tool. It's the financial backbone for CRE portfolios.
+              <strong className="text-white">STAYLL AI</strong> transforms lease document management from manual, error-prone processes into an automated, auditable financial data system for commercial real estate portfolios.
             </p>
             <p className="text-sm text-gray-400 max-w-2xl mx-auto">
-              When auditors need lease truth—they use Stayll. When CFOs need clean data—they use Stayll. When you need to stop bleeding money—they use Stayll.
+              This platform eliminates financial leakage and automates portfolio analytics with clause-level evidence for auditors. Built for asset managers, portfolio accountants, and CFOs managing 500–5,000 leases.
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Stayll AI - The End of Lease Guesswork",
-  description: "Audit-Grade Financial Data from CRE Contracts in 30 Days. Extract rent, escalations, and obligations from 500 leases with ≥95% accuracy—clause-linked, reconciled, and ready for your CFO.",
+  title: "STAYLL AI - Commercial Real Estate Lease Abstraction & Financial Data Platform",
+  description: "Transforms commercial real estate leases into verified, auditable financial datasets. Extract rent schedules, escalation clauses, renewal options, and compliance obligations with <2% error rate guarantee. Built for asset managers, portfolio accountants, and CFOs managing 500–5,000 leases.",
 };
 
 import PageIllustration from "@/components/page-illustration";

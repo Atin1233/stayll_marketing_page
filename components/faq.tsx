@@ -7,44 +7,44 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What lease types?",
-      answer: "Commercial only: office, retail, industrial, multifamily. No residential. We specialize in complex rent schedules, CPI escalations, and renewal options."
+      question: "What lease types does STAYLL AI support?",
+      answer: "Commercial real estate leases only: office, retail, industrial, multifamily. We extract 22 financial and legal fields including rent schedules, escalation clauses, renewal options, and compliance obligations."
     },
     {
-      question: "How accurate?",
-      answer: "≥95% recall on 20 financial fields. Every lease is human-verified. Every field is clause-linked. <2% error rate or we re‑abstract for free."
+      question: "What is the accuracy guarantee?",
+      answer: "<2% error rate guarantee. Multi-model AI stack (Sonnet 4.5, Gemini 3 Pro, GPT-5.1) extracts 22 fields with per-field confidence scoring. Every field is clause-linked to source PDF pages. Financial reconciliation engine validates all rent schedules."
     },
     {
-      question: "Yardi integration?",
-      answer: "Native API push available for Portfolio and Enterprise plans (launches Q2 2026). CSV works with all systems today."
+      question: "Who is STAYLL AI designed for?",
+      answer: "Asset managers, portfolio accountants, and CFOs managing 500–5,000 leases. Built for organizations that need audit-grade financial data from lease documents with clause-level evidence for external audits."
     },
     {
-      question: "Security?",
-      answer: "AES‑256 encryption, single‑tenant schemas, SOC 2 Type II in progress (target Q4 2026). You own your data; we delete on request."
+      question: "What features are included?",
+      answer: "Complete platform includes: batch document upload (500 PDFs/job), AI-powered extraction (22 fields), financial reconciliation engine, audit trail & evidence system, QA workflow, portfolio analytics, compliance calendar, data enrichment services, and API endpoints."
     },
     {
-      question: "Processing time?",
-      answer: "Automated extraction: <3 min/lease. Full pilot delivery: 30 days (includes 100% human QA)."
+      question: "What are the subscription tiers?",
+      answer: "Essential: 0–500 leases ($25K/year), Professional: 500–1,500 leases ($60K/year), Enterprise: 1,500–3,000 leases ($120K/year), Enterprise Plus: 3,000+ leases (Custom pricing). All include Stripe integration and usage limits."
     },
     {
-      question: "Export formats?",
-      answer: "CSV rent roll, iCal compliance calendar, PDF audit package. API for direct Yardi/MRI push (Enterprise)."
+      question: "Yardi/MRI integration?",
+      answer: "Native API integration available for Enterprise Plus plans. CSV export works with all systems today. API endpoints available for direct integration with property management systems."
     },
     {
-      question: "Who is this for?",
-      answer: "CFOs, asset managers, and portfolio accountants at CRE firms managing 500–5,000 leases. If you rely on offshore abstractors or manual Excel, Stayll is for you."
+      question: "What is the implementation status?",
+      answer: "85% complete. Core features functional: Phases 1-4 (Extraction, Reconciliation, Audit Trail, Batch Upload & QA) are complete. Remaining: User roles & permissions, External integrations (Yardi/MRI), Advanced analytics charts."
     },
     {
-      question: "CLM vs. Stayll?",
-      answer: "CLMs (Ironclad, Evisort) manage legal workflows. Stayll extracts financial data with audit‑grade accuracy. We don't do redlines—we give you numbers your CFO can trust."
+      question: "What export formats are available?",
+      answer: "CSV rent roll (monthly/quarterly), PDF audit package (highlighted leases + edit log), iCal compliance calendar, Portfolio exposure reports, Escalation projection reports. API access for Enterprise plans."
     },
     {
-      question: "Scanned leases?",
-      answer: "Yes. Google Document AI handles OCR. Scanned leases have 5% lower automated accuracy, but our human QA team verifies every field. We flag low‑quality scans before processing."
+      question: "How does the QA workflow work?",
+      answer: "QA contractor interface with side-by-side review (PDF + field panel), approve/reject/edit workflow, task timer & productivity tracking, auto-advance to next task, keyboard shortcuts. Fetches fields needing review filtered by confidence/validation state."
     },
     {
-      question: "ROI guarantee?",
-      answer: "3× value in Year 1—if we don't save you 1–3% of lease value, we refund 50% of your pilot fee (written in contract)."
+      question: "What makes STAYLL AI different?",
+      answer: "Five key differentiators: 1) <2% error rate guarantee, 2) Financial reconciliation with deterministic validation, 3) Clause-level audit trail for auditors, 4) Multi-model AI stack for accuracy, 5) Enterprise-grade built for CFO sign-off and external audits."
     }
   ];
 

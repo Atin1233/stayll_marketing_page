@@ -47,10 +47,10 @@ export default function Workflows() {
                   </span>
                 </div>
                 <h3 className="mb-2 font-nacelle text-lg font-semibold text-gray-200">
-                  Upload Every Lease
+                  Batch Upload Documents
                 </h3>
                 <p className="text-blue-200/65">
-                  Upload 500–2,000 PDFs—scanned, digital, or a 10-year mess. Our engine handles it.
+                  Upload up to 500 PDFs per job with drag-and-drop interface. Real-time progress tracking, status indicators, and secure storage with organization-level data isolation.
                 </p>
               </div>
             </div>
@@ -81,10 +81,10 @@ export default function Workflows() {
                   </span>
                 </div>
                 <h3 className="mb-2 font-nacelle text-lg font-semibold text-gray-200">
-                  AI Extracts, We Verify
+                  AI Extraction & Verification
                 </h3>
                 <p className="text-blue-200/65">
-                  Hybrid AI (deterministic rules + GPT-4) extracts 20 financial fields. Every lease is human-verified. Every field is clause-linked. Every number reconciles to ±$1.
+                  Multi-model AI stack (Sonnet 4.5, Gemini 3 Pro, GPT-5.1) extracts 22 financial and legal fields with per-field confidence scoring. Every field is clause-linked to source PDF pages. Financial reconciliation engine validates rent schedules.
                 </p>
               </div>
             </div>
@@ -115,10 +115,10 @@ export default function Workflows() {
                   </span>
                 </div>
                 <h3 className="mb-2 font-nacelle text-lg font-semibold text-gray-200">
-                  Export to Yardi (or CSV)
+                  Portfolio Analytics & Export
                 </h3>
                 <p className="text-blue-200/65">
-                  Push clean rent rolls directly to Yardi/MRI. Your auditors get a PDF audit package. Your CFO gets the truth.
+                  Access portfolio metrics, renewal alerts, escalation projections, and compliance calendar. Export CSV rent rolls, PDF audit packages, or push directly to Yardi/MRI via API (Enterprise plans).
                 </p>
               </div>
             </div>
